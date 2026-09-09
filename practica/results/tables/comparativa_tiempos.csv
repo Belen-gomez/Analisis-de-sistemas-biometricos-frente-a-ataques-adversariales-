@@ -1,0 +1,5 @@
+script,modalidad,fase,n_muestras,n_evaluaciones_modelo,tiempo_segundos,hardware,tiempo_minutos,segundos_por_muestra,segundos_por_evaluacion_modelo
+01_facial_baseline.py,facial,baseline (extraccion de embeddings),2000,2000,246.4,CPU,4.1066666666666665,0.1232,0.1232
+02_facial_adversarial.py,facial,"ataques FGSM+PGD (2 objetivos x 5 epsilon, PGD=10 pasos)",80,6000,1521.5,CPU,25.358333333333334,19.01875,0.2535833333333333
+03_voice_baseline.py,voz,baseline (extraccion de embeddings),800,800,701.6,CPU,11.693333333333333,0.877,0.877
+"04_voice_adversarial.py (N=40, final)",voz,"ataques FGSM+PGD (2 objetivos x 5 epsilon, PGD=5 pasos)",80,3200,10377.5,CPU,172.95833333333334,129.71875,3.24296875

@@ -1,0 +1,9 @@
+modalidad,attack,mode,epsilon_min,asr_en_epsilon_min,epsilon_max,asr_en_epsilon_max,asr_maxima_observada
+facial,FGSM,dodge,0.01,0.3,0.12,0.95,0.95
+facial,PGD,dodge,0.01,0.55,0.12,1.0,1.0
+facial,FGSM,impersonate,0.01,0.3513513513513513,0.12,0.6756756756756757,0.8918918918918919
+facial,PGD,impersonate,0.01,0.7297297297297297,0.12,1.0,1.0
+voz,FGSM,dodge,0.01,0.45,0.12,0.775,0.775
+voz,PGD,dodge,0.01,1.0,0.12,1.0,1.0
+voz,FGSM,impersonate,0.01,0.6153846153846154,0.12,0.0769230769230769,0.6153846153846154
+voz,PGD,impersonate,0.01,1.0,0.12,1.0,1.0

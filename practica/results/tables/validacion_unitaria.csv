@@ -1,0 +1,6 @@
+criterio,resultado,detalle
+Modulo de metricas: FAR/FRR en el umbral 0.55,OK,"FAR=0.2000 (esperado 0.2000), FRR=0.2000 (esperado 0.2000)"
+Modulo de metricas: punto de EER,OK,"EER=0.2000 (esperado approx. 0.2000), umbral=0.6000"
+Modulo de ataques: evasion reduce la similitud de forma monotona con epsilon,OK,"similitud original=0.1870, similitudes tras el ataque=['0.1780', '0.1414', '0.0941', '-0.0039']"
+Modulo de ataques: suplantacion aumenta la similitud de forma monotona con epsilon,OK,"similitud original=0.1870, similitudes tras el ataque=['0.1959', '0.2308', '0.2724', '0.3487']"
+Modulo de ataques: PGD desplaza la similitud tanto o mas que FGSM (mismo epsilon),OK,"similitud tras FGSM=0.0941, similitud tras PGD (10 pasos)=0.0941"

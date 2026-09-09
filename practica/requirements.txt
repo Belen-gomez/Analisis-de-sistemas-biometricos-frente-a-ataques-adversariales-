@@ -1,0 +1,12 @@
+torch
+torchvision
+torchaudio
+facenet-pytorch
+speechbrain
+scikit-learn
+numpy
+pandas
+matplotlib
+pillow
+soundfile
+tqdm
